@@ -69,12 +69,12 @@ O sistema permite criar, listar, editar e remover usuários (Nome, Email, Telefo
 
 --- 
 
-RF-02 — Gestão de Tarefas
+### RF-02 — Gestão de Tarefas
 O sistema permite o gerenciamento de tarefas associadas a usuários específicos. 
 
 --- 
 
-RF-03 — Validação de Dados
+### RF-03 — Validação de Dados
 O sistema implementa trava para caracteres não numéricos no campo de telefone e validação sintática de e-mail. 
 
 ---
