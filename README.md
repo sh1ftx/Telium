@@ -79,7 +79,7 @@ O sistema implementa trava para caracteres não numéricos no campo de telefone 
 
 ---
 
-6. Organização do projeto
+## 6. Organização do projeto
 ```
 ├── api/                # Servidor Backend (Node.js + Express)
 │   ├── controller/     # Lógica de manipulação de dados
