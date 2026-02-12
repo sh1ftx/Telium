@@ -1,5 +1,6 @@
 import express from "express";
-import cors from "cors";
+import cors from "cors"; // Cross-Origin Resource Sharing: mecanismo de segurança
+// do navegador que controla quais origens podem acessar recursos do seu backend.
 
 import userRoutes from "./routes/users.js";
 import tarefasRoutes from "./routes/tarefas.js";
