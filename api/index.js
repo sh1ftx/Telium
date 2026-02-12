@@ -16,7 +16,7 @@ app.use(express.json());
 app.use("/users", userRoutes);
 app.use("/tarefas", tarefasRoutes);
 
-// Health check (opcional, mas recomendado)
+// Health check 
 app.get("/", (req, res) => {
   res.status(200).json({ status: "API rodando" });
 });
