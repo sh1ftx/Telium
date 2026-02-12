@@ -3,8 +3,15 @@ import Global from "./styles/global";
 
 import Users from "./Modules/users";
 import Tarefas from "./Modules/tarefas";
+import Login from "./Modules/users/components/MenuLogin.js";
 
 function App() {
+  const [estaLogado, setEstaLogado] = useState(false);
+
+  if (!estaLogado) {
+    return <Login setEstaLogado={setEstaLogado} />;
+  }
+
   return (
     <>
       <Global />
@@ -89,5 +96,5 @@ const styles = {
   },
 };
 
-// ✅ Export default adicionado
+// Export default adicionado
 export default App;
